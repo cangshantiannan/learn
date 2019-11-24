@@ -3,7 +3,13 @@ package com.wyl.socket;
 import io.netty.channel.Channel;
 
 import java.util.HashMap;
-
+/**
+ * @ClassName: NettyClientManage
+ * @Function:  多客户端管理
+ * @Date:      2019/11/23 0:34
+ * @author     wangyl
+ * @version    V1.0
+ */ 
 public class NettyClientManage {
     static private HashMap<String, Channel> NettyClienMap = new HashMap<>();
 
