@@ -7,6 +7,7 @@ package com.wyl.java8;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Objects;
 
 /**
  * @ClassName: Test3
@@ -21,14 +22,4 @@ public class Test3 {
         str.stream();
         str.parallelStream();
     }
-}
-
-@FunctionalInterface
-interface Myinterface1 {
-    void test1();
-}
-
-@FunctionalInterface
-interface Myinterface2 {
-    void test2();
 }

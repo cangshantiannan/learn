@@ -15,7 +15,7 @@ import java.util.function.Consumer;
  * @author wyl
  * @version V1.0
  */
-public class Test1 {
+public class Lambada {
     public static void main(String[] args) {
         List<Integer> list = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9);
         //完全体
