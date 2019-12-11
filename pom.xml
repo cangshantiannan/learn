@@ -13,6 +13,7 @@
     <modules>
         <module>springbootfirst</module>
         <module>springbootsecond</module>
+        <module>zuul</module>
     </modules>
     <groupId>com.wyl</groupId>
     <artifactId>learn</artifactId>
