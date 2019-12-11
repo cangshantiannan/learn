@@ -42,9 +42,15 @@
             <version>1.18.10</version>
             <scope>provided</scope>
         </dependency>
+        <!--springboot 的健康监控-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+        <!--健康监控以json格式输出-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-hateoas</artifactId>
         </dependency>
     </dependencies>
 
