@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class EchoController {
     @GetMapping(value = "/echo/first/{string}")
     public String echo(@PathVariable String string) {
-        return "Hello Nacos Discovery " + string;
+        return "Hello Nacos Discovery first :" + string;
     }
 }

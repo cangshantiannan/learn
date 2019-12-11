@@ -1,4 +1,4 @@
-package com.wyl.springboot;
+package com.wyl.gateway;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,12 +7,12 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-public class SpringbootFirstApplication {
-
+public class GatewayApplication {
     public static void main(String[] args) {
-//        SpringApplication.run(SpringbootFirstApplication.class, args);
-        SpringApplication sa = new SpringApplication(SpringbootFirstApplication.class);
+//        SpringApplication.run(GatewayApplication.class, args);
+        SpringApplication sa = new SpringApplication(GatewayApplication.class);
         sa.addListeners(new ApplicationPidFileWriter());
         sa.run(args);
     }
+
 }

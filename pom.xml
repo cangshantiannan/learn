@@ -13,7 +13,8 @@
     <modules>
         <module>springbootfirst</module>
         <module>springbootsecond</module>
-        <module>zuul</module>
+        <module>gateway</module>
+        <module>oauthservice</module>
     </modules>
     <groupId>com.wyl</groupId>
     <artifactId>learn</artifactId>
@@ -41,6 +42,10 @@
             <version>1.18.10</version>
             <scope>provided</scope>
         </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
     </dependencies>
 
     <dependencyManagement>
@@ -49,7 +54,7 @@
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-dependencies</artifactId>
-                <version>Greenwich.SR2</version>
+                <version>Greenwich.SR1</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
